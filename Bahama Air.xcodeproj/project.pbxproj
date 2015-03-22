@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9CEE8E198A57A70044C848 /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CEE8D198A57A70044C848 /* FlightData.swift */; };
+		9CB951B1198A32D0004417D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB951B0198A32D0004417D0 /* AppDelegate.swift */; };
+		9CB951B3198A32D0004417D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB951B2198A32D0004417D0 /* ViewController.swift */; };
+		9CB951B6198A32D0004417D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB951B4198A32D0004417D0 /* Main.storyboard */; };
+		9CB951B8198A32D0004417D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB951B7198A32D0004417D0 /* Images.xcassets */; };
+		9CB951D9198A3B06004417D0 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB951D8198A3B06004417D0 /* SnowView.swift */; };
+		9CB951DB198A3CF0004417D0 /* snowflake1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB951DA198A3CF0004417D0 /* snowflake1.png */; };
+		9CD595D2199CF95500B7EA46 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CA199CF95500B7EA46 /* banner@2x.png */; };
+		9CD595D3199CF95500B7EA46 /* bg-snowy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CB199CF95500B7EA46 /* bg-snowy@2x.png */; };
+		9CD595D4199CF95500B7EA46 /* bg-sunny@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CC199CF95500B7EA46 /* bg-sunny@2x.png */; };
+		9CD595D5199CF95500B7EA46 /* icon-blue-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CD199CF95500B7EA46 /* icon-blue-arrow@2x.png */; };
+		9CD595D6199CF95500B7EA46 /* icon-blue-umbrella@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CE199CF95500B7EA46 /* icon-blue-umbrella@2x.png */; };
+		9CD595D7199CF95500B7EA46 /* icon-orange-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595CF199CF95500B7EA46 /* icon-orange-arrow@2x.png */; };
+		9CD595D8199CF95500B7EA46 /* icon-orange-sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595D0199CF95500B7EA46 /* icon-orange-sun@2x.png */; };
+		9CD595D9199CF95500B7EA46 /* plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD595D1199CF95500B7EA46 /* plane@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C9CEE8D198A57A70044C848 /* FlightData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		9CB951AB198A32D0004417D0 /* Bahama Air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bahama Air.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB951AF198A32D0004417D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB951B0198A32D0004417D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CB951B2198A32D0004417D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CB951B5198A32D0004417D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CB951B7198A32D0004417D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CB951D8198A3B06004417D0 /* SnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		9CB951DA198A3CF0004417D0 /* snowflake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflake1.png; sourceTree = "<group>"; };
+		9CD595CA199CF95500B7EA46 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		9CD595CB199CF95500B7EA46 /* bg-snowy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-snowy@2x.png"; sourceTree = "<group>"; };
+		9CD595CC199CF95500B7EA46 /* bg-sunny@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny@2x.png"; sourceTree = "<group>"; };
+		9CD595CD199CF95500B7EA46 /* icon-blue-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-blue-arrow@2x.png"; sourceTree = "<group>"; };
+		9CD595CE199CF95500B7EA46 /* icon-blue-umbrella@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-blue-umbrella@2x.png"; sourceTree = "<group>"; };
+		9CD595CF199CF95500B7EA46 /* icon-orange-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-orange-arrow@2x.png"; sourceTree = "<group>"; };
+		9CD595D0199CF95500B7EA46 /* icon-orange-sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-orange-sun@2x.png"; sourceTree = "<group>"; };
+		9CD595D1199CF95500B7EA46 /* plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB951A8198A32D0004417D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9CEE8B198A578E0044C848 /* Support classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CB951D8198A3B06004417D0 /* SnowView.swift */,
+				9C9CEE8D198A57A70044C848 /* FlightData.swift */,
+			);
+			name = "Support classes";
+			sourceTree = "<group>";
+		};
+		9CB951A2198A32D0004417D0 = {
+			isa = PBXGroup;
+			children = (
+				9CD595C9199CF81300B7EA46 /* Art */,
+				9CB951AD198A32D0004417D0 /* Bahama Air */,
+				9CB951AC198A32D0004417D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB951AC198A32D0004417D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB951AB198A32D0004417D0 /* Bahama Air.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB951AD198A32D0004417D0 /* Bahama Air */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CEE8B198A578E0044C848 /* Support classes */,
+				9CB951B0198A32D0004417D0 /* AppDelegate.swift */,
+				9CB951B2198A32D0004417D0 /* ViewController.swift */,
+				9CB951B4198A32D0004417D0 /* Main.storyboard */,
+				9CB951B7198A32D0004417D0 /* Images.xcassets */,
+				9CB951AE198A32D0004417D0 /* Supporting Files */,
+			);
+			name = "Bahama Air";
+			path = "flight-demo";
+			sourceTree = "<group>";
+		};
+		9CB951AE198A32D0004417D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CB951AF198A32D0004417D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CD595C9199CF81300B7EA46 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				9CD595CA199CF95500B7EA46 /* banner@2x.png */,
+				9CD595CB199CF95500B7EA46 /* bg-snowy@2x.png */,
+				9CD595CC199CF95500B7EA46 /* bg-sunny@2x.png */,
+				9CD595CD199CF95500B7EA46 /* icon-blue-arrow@2x.png */,
+				9CD595CE199CF95500B7EA46 /* icon-blue-umbrella@2x.png */,
+				9CD595CF199CF95500B7EA46 /* icon-orange-arrow@2x.png */,
+				9CD595D0199CF95500B7EA46 /* icon-orange-sun@2x.png */,
+				9CD595D1199CF95500B7EA46 /* plane@2x.png */,
+				9CB951DA198A3CF0004417D0 /* snowflake1.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB951AA198A32D0004417D0 /* Bahama Air */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB951C7198A32D0004417D0 /* Build configuration list for PBXNativeTarget "Bahama Air" */;
+			buildPhases = (
+				9CB951A7198A32D0004417D0 /* Sources */,
+				9CB951A8198A32D0004417D0 /* Frameworks */,
+				9CB951A9198A32D0004417D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bahama Air";
+			productName = "flight-demo";
+			productReference = 9CB951AB198A32D0004417D0 /* Bahama Air.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB951A3198A32D0004417D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Underplot ltd.";
+				TargetAttributes = {
+					9CB951AA198A32D0004417D0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 9CB951A6198A32D0004417D0 /* Build configuration list for PBXProject "Bahama Air" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB951A2198A32D0004417D0;
+			productRefGroup = 9CB951AC198A32D0004417D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB951AA198A32D0004417D0 /* Bahama Air */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB951A9198A32D0004417D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD595D8199CF95500B7EA46 /* icon-orange-sun@2x.png in Resources */,
+				9CD595D9199CF95500B7EA46 /* plane@2x.png in Resources */,
+				9CD595D2199CF95500B7EA46 /* banner@2x.png in Resources */,
+				9CD595D5199CF95500B7EA46 /* icon-blue-arrow@2x.png in Resources */,
+				9CD595D3199CF95500B7EA46 /* bg-snowy@2x.png in Resources */,
+				9CB951DB198A3CF0004417D0 /* snowflake1.png in Resources */,
+				9CB951B6198A32D0004417D0 /* Main.storyboard in Resources */,
+				9CD595D6199CF95500B7EA46 /* icon-blue-umbrella@2x.png in Resources */,
+				9CB951B8198A32D0004417D0 /* Images.xcassets in Resources */,
+				9CD595D4199CF95500B7EA46 /* bg-sunny@2x.png in Resources */,
+				9CD595D7199CF95500B7EA46 /* icon-orange-arrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB951A7198A32D0004417D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB951B3198A32D0004417D0 /* ViewController.swift in Sources */,
+				9CB951B1198A32D0004417D0 /* AppDelegate.swift in Sources */,
+				9CB951D9198A3B06004417D0 /* SnowView.swift in Sources */,
+				9C9CEE8E198A57A70044C848 /* FlightData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CB951B4198A32D0004417D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB951B5198A32D0004417D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB951C5198A32D0004417D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CB951C6198A32D0004417D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB951C8198A32D0004417D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "flight-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Bahama Air";
+			};
+			name = Debug;
+		};
+		9CB951C9198A32D0004417D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "flight-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Bahama Air";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB951A6198A32D0004417D0 /* Build configuration list for PBXProject "Bahama Air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB951C5198A32D0004417D0 /* Debug */,
+				9CB951C6198A32D0004417D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB951C7198A32D0004417D0 /* Build configuration list for PBXNativeTarget "Bahama Air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB951C8198A32D0004417D0 /* Debug */,
+				9CB951C9198A32D0004417D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB951A3198A32D0004417D0 /* Project object */;
+}
